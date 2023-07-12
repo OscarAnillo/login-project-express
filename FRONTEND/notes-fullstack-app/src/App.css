@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+.nav {
+  background-color: rgb(78, 139, 69);
+  border: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+}
+.nav button {
+  border: none;
+  border-radius: 6px;
+  padding: .5em 1em;
+}
+.nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 7%;
+}
+
+/* Homepage */
+.home-bg {
+  background-image: url("adventure.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 950px;
+  position: relative;
+}
+.home-div {
+  width: 35%;
+  position: absolute;
+  top: 40%;
+  left: 10%
+}
+.home-div h1 {
+  color: #2c2222;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.home-div p {
+  color: #555454;
+}
+.home-div button {
+  background-color: rgb(44, 133, 36);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: .5em;
+  padding: 1em;
+  text-transform: uppercase;
+  transition: .3s ease-in-out;
+}
+.home-div button:hover {
+  background-color: rgb(38, 202, 23);
+  padding: 1.1em 1em;
+}
+
+/* LoginPage */
+.login-div {
+  height: 950px;
+  position: relative;
+}
+.login-div form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+}
+.login-div form input {
+  border: none;
+  border-bottom: 1px solid #333;
+  width: 100%;
+}
+.login-div form button {
+  background-color: rgb(78, 139, 69);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  margin-top: 1em;
+  padding: .5em 2em;
+  text-transform: uppercase;
+}
+
+/* RegisterPage */
+.register-div {
+  height: 950px;
+  position: relative;
+}
+.register-div form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+}
+.register-div form input {
+  border: none;
+  border-bottom: 1px solid #333;
+  width: 100%;
+}
+.register-div form button {
+  background-color: rgb(78, 139, 69);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  margin-top: 1em;
+  padding: .5em 2em;
+  text-transform: uppercase;
+}
